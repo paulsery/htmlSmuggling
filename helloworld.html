@@ -21,7 +21,7 @@
 
             
             var data = base64ToArrayBuffer(file);
-            // var blob = new Blob([data], {type: 'octet/stream'});
+            var blob = new Blob([data], {type: 'octet/stream'});
             var fileName = 'helloworld.txt';
             var a = document.createElement('a');
             console.log(a);
